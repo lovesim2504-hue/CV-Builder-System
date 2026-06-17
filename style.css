@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Brush Script MT", cursive;
+  /* font-size: 20px; */
+}
+
+body {
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 400px; */
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #f2d6c7;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  font-size: 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.logo span {
+  color: #DCAE96;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #DCAE96;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  color: #222;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 50px;
+}
+
+
+/* login css  */
+.login-container h2{
+  text-align: center;
+  font-size: 50px;
+}
+.login-container form{
+  margin: 0 auto;
+  height: 25%;
+  width: 60%;
+  margin-top: 100px;
+  padding: 100px;
+}
+.login-container input{
+  width: 90%;
+  padding: 8px 20px ;
+  font-size: 30px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  background: #DCAE96;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  border: none;
+  font-size: 30px;
+  margin-left: 35%;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  background: #DCAE96;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  border: none;
+  font-size: 30px;
+}
+
+
+.btn:hover {
+  background: #DCAE96;
+}
+.form-container form{
+  /* background-color:; */
+  margin: 0 auto;
+  height: 25%;
+  width: 30%;
+  margin-top: 100px;
+  padding: 20px;
+}
+.form-container input{
+  width: 90%;
+  padding: 8px 20px ;
+  font-size: 13px;
+}
+.form-container textarea{
+  padding: 8px 20px ;
+  font-size: 13px;
+}
+
+.resume-preview{
+  background-color:rgb(186, 186, 186);
+  margin: 0 auto;
+  height: 25%;
+  width: 30%;
+  margin-top: 100px;
+  padding: 20px;
+}
+.pform{
+    background-color:rgb(186, 186, 186);
+  margin: 0 auto;
+  height: 25%;
+  width: 30%;
+  padding: 20px;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 22%;
+  background: #DCAE96;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .form-container, .login-container {
+    width: 90%;
+  }
+}
