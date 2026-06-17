@@ -1,43 +1,53 @@
-# CV-Builder-System
-CV-builder-system is a Resume Builder Web Application developed using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap. The platform enables users to create professional resumes by entering their personal, educational, and professional details. Users can choose from multiple resume templates, preview their resumes in real time, and generate polished resumes for job applications.
+#  CV-Builder-System
 
-### Features
+CV-Builder-System is a Resume Builder Web Application developed using PHP, MySQL, Bootstrap, JavaScript, and DOMPDF. The application allows users to create professional resumes, choose from multiple resume templates, preview their resumes, and download them as PDF documents.
+
+---
+
+## Features
 
 ###  User Features
 
 * User Registration & Login
-* Create and Edit Resumes
+* Create and Edit Resume
 * Multiple Resume Templates
 * Personal Information Management
 * Education Details Management
-* Skills & Certifications Section
+* Skills Section
 * Work Experience Section
+* Projects & Certifications
 * Resume Preview
 * Download Resume as PDF
-* Responsive Design
 
 ###  Resume Templates
 
-* Modern Template
 * Professional Template
-* Creative Template
+* Modern Template
 * Minimalist Template
-* Customizable Layouts
+* Creative Template
+
+###  PDF Generation
+
+* Generate Resume in PDF Format
+* High-Quality Resume Export
+* Powered by DOMPDF
 
 ###  Security Features
 
 * Secure Authentication
 * Session Management
 * Password Encryption
-* Form Validation
+* Input Validation
 
-## Technologies Used
+---
+
+##  Technologies Used
 
 ### Frontend
 
 * HTML5
 * CSS3
-* Bootstrap
+* Bootstrap 5
 * JavaScript
 
 ### Backend
@@ -48,19 +58,24 @@ CV-builder-system is a Resume Builder Web Application developed using PHP, MySQL
 
 * MySQL
 
-##  Modules
+### Libraries
 
-* Authentication Module
-* Resume Builder Module
-* Template Selection Module
-* Resume Preview Module
-* PDF Generation Module
+* DOMPDF (PDF Generation)
+
+### Server
+
+* Apache (XAMPP/WAMP)
+
+---
+
+##  Key Modules
+
+* User Authentication
+* Resume Builder
+* Template Selection
+* Resume Preview
+* PDF Generation using DOMPDF
 * User Dashboard
 
-##  Future Enhancements
+---
 
-* AI Resume Suggestions
-* Cover Letter Generator
-* Resume Sharing via Link
-* Dark Mode Templates
-* ATS-Friendly Resume Analysis
